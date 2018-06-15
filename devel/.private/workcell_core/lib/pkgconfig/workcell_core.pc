@@ -1,0 +1,8 @@
+prefix=/home/jasondent/Practice/devel/.private/workcell_core
+
+Name: workcell_core
+Description: Description of workcell_core
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jasondent/Practice/devel/.private/workcell_core/lib 
+Requires: roscpp fake_ar_publisher

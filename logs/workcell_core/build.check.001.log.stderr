@@ -1,0 +1,9 @@
+[31m[1mCMake Error[0m at /home/jasondent/Practice/src/workcell_core/CMakeLists.txt:10 (find_package):
+  find_package called with invalid argument "REQUIRED_COMPONENTS"
+
+
+[31m[1mCMake Error[0m at /home/jasondent/Practice/src/workcell_core/CMakeLists.txt:104 (catkin_package):
+  Unknown CMake command "catkin_package".
+
+
+make: *** [cmake_check_build_system] Error 1

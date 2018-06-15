@@ -1,0 +1,51 @@
+[  0%] Built target fake_ar_publisher_generate_messages_py
+[  0%] Built target fake_ar_publisher_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target fake_ar_publisher_generate_messages_nodejs
+[  0%] Built target fake_ar_publisher_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target fake_ar_publisher_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target vision_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vision_node.dir/src/vision_node.cpp.o[0m
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:19:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  fake_ar_publisher::ARMarkerConstPtr last_msg_
+[01;32m[K                                      ^[m[K
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:24:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+  Localizer localizer(nh);
+[01;32m[K                      ^[m[K
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:26:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
+  ros::spin()
+[01;32m[K  ^[m[K
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:27:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+  return 0;
+[01;32m[K  ^[m[K
+CMakeFiles/vision_node.dir/build.make:62: recipe for target 'CMakeFiles/vision_node.dir/src/vision_node.cpp.o' failed
+make[2]: *** [CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+CMakeFiles/Makefile2:96: recipe for target 'CMakeFiles/vision_node.dir/all' failed
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

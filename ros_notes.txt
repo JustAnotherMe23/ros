@@ -1,0 +1,77 @@
+http://ros-industrial.github.io/industrial_training/
+
+
+------------------
+WORKSPACE
+------------------
+
+Initializing a workspace:
+
+catkin init
+catkin build	\\catkin_make is a different thing
+
+catkin_create_package <package_name>	\\ Makes package
+
+
+------------------
+NODES
+------------------
+
+rosnode list \\Lists all nodes, duh
+rosnode info <node name>
+rosnode kill <node name>
+
+rqt_graph \\ shows
+
+\\Making a node
+\\Declare executable in CMakeLists.txt
+add_executable(<node_name> <path_to_file>)
+target_link_libraries(<node_name> ${catkin_LIBRARIES})
+\\Note: ensure "add_compile_option(-std=c++11)" is under projects(<stuff>), not add_definition(-std=c++11)
+
+
+------------------
+TOPICS
+------------------
+
+rostopic list
+rostopic echo <msg name> \\Shows contents
+
+//For publication rates
+rostopic hz <msg name>
+rostopic bw <msg name>
+
+
+------------------
+Dependencies
+------------------
+
+To add dependency, go to CMakeLists.txt:
+
+find_package(catkin REQUIRED COMPONENTS 
+  <package_name>
+)
+
+and
+
+catkin_package(
+   CATKIN_DEPENDS 
+     <package_name>
+)
+
+and
+
+add_dependencies(<node_name> ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+Then go to package.xml and add:
+
+<depend><package_name></depend>
+
+
+------------------
+MESSAGES
+------------------
+
+rosmsg list \\ Lists available msgs
+rosmsg package <package> \\ Lists msgs from certain package
+rosmsgs show <msg> \\ Gives details on msg

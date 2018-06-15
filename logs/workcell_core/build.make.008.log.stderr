@@ -1,0 +1,13 @@
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:24:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+  Localizer localizer(nh);
+[01;32m[K                      ^[m[K
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:26:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kros[m[K’
+  ros::spin()
+[01;32m[K  ^[m[K
+[01m[K/home/jasondent/Practice/src/workcell_core/src/vision_node.cpp:27:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+  return 0;
+[01;32m[K  ^[m[K
+make[2]: *** [CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+make: *** [all] Error 2

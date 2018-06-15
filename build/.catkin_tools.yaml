@@ -1,0 +1,6 @@
+devel_space: /home/jasondent/Practice/devel
+install: false
+install_space: /home/jasondent/Practice/install
+profile: default
+source_space: /home/jasondent/Practice/src
+workspace: /home/jasondent/Practice

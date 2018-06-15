@@ -1,0 +1,1 @@
+/home/jasondent/Practice/devel/.private/fake_ar_publisher/share/common-lisp/ros/fake_ar_publisher/msg/_package_ARMarker.lisp

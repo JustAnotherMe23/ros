@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/jasondent/Practice/src/fake_ar_publisher/CMakeLists.txt:3 (add_compile_option):
+  Unknown CMake command "add_compile_option".
+
+
+make: *** [cmake_check_build_system] Error 1

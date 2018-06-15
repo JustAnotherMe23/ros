@@ -1,0 +1,1 @@
+/home/jasondent/Practice/devel/.private/fake_ar_publisher/lib/pkgconfig/fake_ar_publisher.pc

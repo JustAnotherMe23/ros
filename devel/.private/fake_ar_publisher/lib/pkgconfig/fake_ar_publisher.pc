@@ -1,0 +1,8 @@
+prefix=/home/jasondent/Practice/devel/.private/fake_ar_publisher
+
+Name: fake_ar_publisher
+Description: Description of fake_ar_publisher
+Version: 0.0.0
+Cflags: -I/home/jasondent/Practice/devel/.private/fake_ar_publisher/include
+Libs: -L/home/jasondent/Practice/devel/.private/fake_ar_publisher/lib 
+Requires: roscpp std_msgs visualization_msgs
